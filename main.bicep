@@ -1,4 +1,4 @@
-param location string = 'eastus'
+param location string = 'centralindia'
 param vmName string = 'demo-vm'
 param adminUsername string = 'azureuser'
 @secure()
@@ -45,7 +45,7 @@ resource vm 'Microsoft.Compute/virtualMachines@2023-07-01' = {
   location: location
   properties: {
     hardwareProfile: {
-      vmSize: 'Standard_L2aos_v4'
+      vmSize: 'Standard_D2ls_v5'
     }
     osProfile: {
       computerName: vmName
