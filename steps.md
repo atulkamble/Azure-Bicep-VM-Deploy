@@ -18,6 +18,10 @@ vs code >> extensions >> bicep
 
 az group create --name bicep-rg --location eastus
 
-az deployment group create --resource-group bicep-rg --template-file main.bicep --parameters parameters.bicep
+az group list 
+
+az deployment group create --resource-group bicep-rg --parameters parameters.bicepparam
+
+az deployment group create --name cloudnautic-vm-deployment --resource-group bicep-rg --template-file main.bicep --parameters @parameters.json
 
 ```
