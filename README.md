@@ -29,17 +29,8 @@
 </a>
 </p>
 
-<strong>Version 1.0.0</strong> | <strong>Last Updated:</strong> January 2026
+<strong>Version 1.0.0</strong> | <strong>Last Updated:</strong> July 2026
 </div>
-
-
-![Image](https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/n-tier/images/single-vm-diagram.svg)
-
-![Image](https://www.coforge.com/hs-fs/hubfs/bicep-code.png?height=554\&name=bicep-code.png\&width=658)
-
-![Image](https://www.mssqltips.com/wp-content/images-tips/6407_azure-vm-deployment.001.png)
-
-![Image](https://learn.microsoft.com/en-us/azure/azure-compute-fleet/media/vm-attribute/attribute-based-vm-selection-diagram.png)
 
 This guide shows **how to deploy an Azure Virtual Machine using Bicep**, Microsoft’s native **Infrastructure as Code (IaC)** language for **Microsoft Azure**.
 
@@ -224,10 +215,9 @@ az vm show -g bicep-rg -n cloudnautic-vm
 
 ## ⭐ Best Practices
 
-* Use **modules** for VNet, VM, NSG
-* Store secrets in **Azure Key Vault**
-* Use **Bicep linter**
-* Integrate with **GitHub Actions / Azure DevOps**
-* Enable **Managed Identity**
-
+- * Use **modules** for VNet, VM, NSG
+- * Store secrets in **Azure Key Vault**
+- * Use **Bicep linter**
+- * Integrate with **GitHub Actions / Azure DevOps**
+- * Enable **Managed Identity**
 ---
