@@ -32,8 +32,6 @@
 <strong>Version 1.0.0</strong> | <strong>Last Updated:</strong> July 2026
 </div>
 
-This guide shows **how to deploy an Azure Virtual Machine using Bicep**, Microsoft’s native **Infrastructure as Code (IaC)** language for **Microsoft Azure**.
-
 ---
 
 ## 🔹 What is Bicep?
