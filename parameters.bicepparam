@@ -1,3 +1,5 @@
+using './main.bicep'
+
 param location = 'centralindia'
 param vmName = 'cloudnautic-vm'
 param adminUsername = 'atul'
