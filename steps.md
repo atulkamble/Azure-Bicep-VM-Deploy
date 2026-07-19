@@ -23,4 +23,14 @@ az group list
 az deployment group create --resource-group bicep-rg --parameters parameters.bicepparam
 
 az deployment group create --name cloudnautic-vm-deployment --resource-group bicep-rg --template-file main.bicep --parameters @parameters.json
+
+az deployment group delete --resource-group bicep-rg --name cloudnautic-vm-deployment
+
+az group delete --name bicep-rg
+
+az group delete --name bicep-rg --yes
+
+az deployment group list --resource-group bicep-rg --output table
+
+az group exists --name bicep-rg
 ```
