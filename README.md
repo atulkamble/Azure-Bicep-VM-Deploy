@@ -178,14 +178,9 @@ param adminPassword = 'P@ssw0rd123!'
 ## 🚀 Deploy the VM
 
 ```bash
-az group create \
-  --name bicep-rg \
-  --location eastus
+az group create --name bicep-rg --location eastus
 
-az deployment group create \
-  --resource-group bicep-rg \
-  --template-file main.bicep \
-  --parameters parameters.bicep
+az deployment group create --resource-group bicep-rg --template-file main.bicep --parameters parameters.bicepparam
 ```
 
 ---
